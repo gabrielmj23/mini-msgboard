@@ -1,6 +1,19 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.jumbo {
+  padding: 30px;
+  background-color: blueviolet;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  place-items: center;
 }
 
 a {

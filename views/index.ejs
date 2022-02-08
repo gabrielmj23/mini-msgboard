@@ -6,6 +6,15 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p>Welcome to <b><%= title %></b></p>
+    <ul>
+      <% messages.forEach(function(msg) { %>
+        <li>
+          <h3><%= msg.user %></h5>
+          <p><%= msg.text %></p>
+          <p><%= msg.added %></p>
+        </li>
+      <% }); %>
+    </ul>
   </body>
 </html>
